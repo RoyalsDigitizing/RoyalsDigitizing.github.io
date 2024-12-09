@@ -1,6 +1,6 @@
 import React from "react";
 import LeftBanner from "./LeftBanner";
-import RightBanner from "./RightBanner";
+// import RightBanner from "./RightBanner";
 const Banner = () => {
   return (
     <section id="home" className="w-full h-auto">

@@ -1,6 +1,5 @@
-import React, { useEffect, useState } from "react";
+import React, { } from "react";
 import { VideoPlayer } from "./VideoPlayer";
-import Title from "../layouts/Title";
 import { motion } from "framer-motion";
 
 export const PopupExample = ({ item, setItem, ProjectLinks }) => {
@@ -17,7 +16,7 @@ export const PopupExample = ({ item, setItem, ProjectLinks }) => {
 
     return <div className={heightClass} />;
   };
-  const { title, des, longDes, video, link, androidLink, iosLink, gitLink } =
+  const { title, des, longDes, video } =
     item;
   return (
     <div>

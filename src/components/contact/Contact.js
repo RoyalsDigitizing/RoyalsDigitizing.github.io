@@ -8,8 +8,8 @@ const Contact = () => {
   const [email, setEmail] = useState("");
   const [subject, setSubject] = useState("");
   const [message, setMessage] = useState("");
-  const [errMsg, setErrMsg] = useState("");
-  const [successMsg, setSuccessMsg] = useState("");
+  const [ setErrMsg] = useState("");
+  const [ setSuccessMsg] = useState("");
 
   // ========== Email Validation start here ==============
   const emailValidation = () => {

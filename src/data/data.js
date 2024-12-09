@@ -1,18 +1,13 @@
-import { AiFillAppstore } from "react-icons/ai";
 import {
   FaMobile,
   FaGlobe,
-  FaNode,
   FaNodeJs,
   FaDatabase,
-  FaDeploydog,
 } from "react-icons/fa";
-import { MdLiveHelp, MdLiveTv, MdPublic } from "react-icons/md";
+import { MdPublic } from "react-icons/md";
 import {
-  SiProgress,
-  SiAntdesign,
+
   SiFirebase,
-  SiLivechat,
 } from "react-icons/si";
 
 // Features Data

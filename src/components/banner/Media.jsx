@@ -6,14 +6,10 @@ import {
 
 } from "react-icons/fa";
 // import meImage from '';
-import { photo,illus, wi, wil } from "../../assets/index";
+import { photo,illus,  wil } from "../../assets/index";
 
-import { MdIosShare, MdIso, MdMail } from "react-icons/md";
-import {
+import { MdMail } from "react-icons/md";
 
-  SiMongodb,
-
-} from "react-icons/si";
 export const FindMe = () => {
   return (
     <div>

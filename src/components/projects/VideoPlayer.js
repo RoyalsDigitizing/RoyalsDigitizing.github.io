@@ -1,5 +1,5 @@
 // src/VideoPlayer.js
-import React, { useState } from "react";
+import React, {  } from "react";
 // import video from "/videos/vancon.mp4";
 
 export const VideoPlayer = ({ video }) => {

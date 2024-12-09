@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Title from "../layouts/Title";
-import { projectOne, projectTwo, projectThree } from "../../assets/index";
-import ProjectsCard from "./ProjectsCard";
-import { VideoPlayer } from "./VideoPlayer";
+
 import { PopupExample } from "./Popup";
 import { BsGithub } from "react-icons/bs";
 import { FaAndroid, FaGlobe } from "react-icons/fa";
