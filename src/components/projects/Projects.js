@@ -24,8 +24,19 @@ const ProjectData = [
       "(9).jpg", "(10).jpg", "(11).jpg", "(12).jpg"
     ]
 
-  }, 
 
+  }, 
+  {
+    title: "Collar and Hem",
+    des: "Collar embroidery adds decorative designs to the neckline, enhancing garments with intricate patterns. Hem embroidery adorns the bottom edge of clothing, offering a stylish finish with unique, eye-catching details",
+    images: [
+      "(1).BMP", "(2).BMP", "(3).BMP", "(4).BMP", "(5).BMP", "(6).BMP", "(7).BMP", "(8).BMP", "(9).BMP", "(10).BMP",
+      "(11).BMP", "(12).BMP", "(13).BMP", "(14).BMP", "(15).BMP", "(16).BMP", "(17).BMP", "(18).BMP", "(19).BMP", "(20).BMP",
+      "(21).BMP", "(22).BMP", "(23).BMP", "(24).BMP", "(25).BMP", "(26).BMP", "(27).BMP", "(28).BMP", "(29).BMP"
+    ]
+
+    
+  }, 
 ];
 const Projects = () => {
   const [selectedItem, setSelectedItem] = useState(null);

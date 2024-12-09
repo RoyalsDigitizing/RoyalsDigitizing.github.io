@@ -6,8 +6,8 @@ import { myImage } from "../../assets/index";
 const LeftBanner = () => {
   const [text] = useTypewriter({
     words: [
-      "Graphic Design Specialists.",
       "High-Quality Embroidery Services.",
+      "Graphic Design Specialists.",
       "Custom Digitizing Experts.",
     ],
     
