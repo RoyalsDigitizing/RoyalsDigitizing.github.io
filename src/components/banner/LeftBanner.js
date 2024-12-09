@@ -40,7 +40,7 @@ const LeftBanner = () => {
             </h2>
           </div>
 
-          <div className="w-32 h-32 md:w-44 md:h-44 rounded-full border-2 border-black overflow-hidden flex items-center justify-center">
+          <div className="w-32 h-32 md:w-44 md:h-44 rounded-full border-2 border-designColor overflow-hidden flex items-center justify-center">
             <img
               src={myImage}
               alt="Profile"
