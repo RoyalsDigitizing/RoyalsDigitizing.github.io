@@ -94,7 +94,7 @@ const ProjectData = [
 
   {
     title: "Kids Designing",
-    des: "Collar embroidery adds decorative designs to the neckline, enhancing garments with intricate patterns. Hem embroidery adorns the bottom edge of clothing, offering a stylish finish with unique, eye-catching details",
+    des: "Kids Designing Embroidery specializes in creating fun and playful designs for children's clothing. We offer a variety of colorful, vibrant patterns that bring joy to any garment.Our high-quality embroidery ensures lasting, beautiful designs for your little ones.",
     images: [
       "(1).jpg",
       "(2).jpg",
@@ -172,7 +172,7 @@ const ProjectData = [
   
   {
     title: "Causions",
-    des: "Collar embroidery adds decorative designs to the neckline, enhancing garments with intricate patterns. Hem embroidery adorns the bottom edge of clothing, offering a stylish finish with unique, eye-catching details",
+    des: "Cautions Embroidery offers unique and stylish designs for safety-related apparel. We provide bold, clear patterns that communicate important messages with style. Our high-quality embroidery ensures durability and visibility for all cautionary wear.",
     images: [
       "(1).jpg",
       "(2).jpg",
@@ -190,7 +190,7 @@ const ProjectData = [
 
   {
     title: "Net",
-    des: "Collar embroidery adds decorative designs to the neckline, enhancing garments with intricate patterns. Hem embroidery adorns the bottom edge of clothing, offering a stylish finish with unique, eye-catching details",
+    des: "Net Embroidery specializes in intricate and modern designs for mesh and netted fabrics. We create lightweight, breathable embroidery patterns that complement the texture of net materials. Our high-quality stitching enhances the beauty and durability of net garments.",
     images: [
       "(1).jpg",
       "(2).jpg",
@@ -246,7 +246,7 @@ const ProjectData = [
   },
   {
     title: "Animals",
-    des: "Collar embroidery adds decorative designs to the neckline, enhancing garments with intricate patterns. Hem embroidery adorns the bottom edge of clothing, offering a stylish finish with unique, eye-catching details",
+    des: "Animals Embroidery brings life to your fabric with vibrant and detailed animal designs. Whether it’s wildlife, pets, or mythical creatures, our embroidery captures the essence of the animal world with precision and creativity, making every piece unique and eye-catching.",
     images: [
       "(1).jpg",
       "(2).jpg",
@@ -260,7 +260,7 @@ const ProjectData = [
   },
   {
     title: "Sherwani",
-    des: "Collar embroidery adds decorative designs to the neckline, enhancing garments with intricate patterns. Hem embroidery adorns the bottom edge of clothing, offering a stylish finish with unique, eye-catching details",
+    des: "Sherwani Embroidery adds elegance and royal charm to traditional attire. With intricate designs and exquisite detailing, our Sherwani embroidery enhances the beauty of this timeless garment, making it perfect for weddings, celebrations, and special occasions.",
     images: [
       "(1).jpg",
       "(2).jpg",
@@ -289,7 +289,7 @@ const ProjectData = [
   },
   {
     title: "Miscellaneous",
-    des: "Collar embroidery adds decorative designs to the neckline, enhancing garments with intricate patterns. Hem embroidery adorns the bottom edge of clothing, offering a stylish finish with unique, eye-catching details",
+    des: "Miscellaneous Embroidery covers a wide range of unique and creative designs, offering custom embroidery solutions for diverse needs. Whether it's for personalized gifts, home decor, or special event decorations, we provide high-quality embroidery tailored to your requirements.",
     images: [
       "(1).jpg",
       "(2).jpg",
