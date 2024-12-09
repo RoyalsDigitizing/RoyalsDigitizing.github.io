@@ -15,11 +15,17 @@ export const ImageCarousel = ({ item }) => {
 
   return (
     <div className="w-full h-[240px] overflow-hidden rounded-lg">
-      <img
-        className="w-full h-full object-cover group-hover:scale-110 duration-300 cursor-pointer"
+   <img
+        className="w-full h-full  group-hover:scale-110 duration-300 cursor-pointer"
         src={require(`../../assets/categories/${title}/${images[currentIndex]}`)}
         alt={title}
       />
+      {/* <img
+        className="w-full h-full object-cover group-hover:scale-110 duration-300 cursor-pointer"
+        src={require(`../../assets/categories/${title}/${images[currentIndex]}`)}
+        alt={title}
+      /> */}
+
     </div>
   );
 };
