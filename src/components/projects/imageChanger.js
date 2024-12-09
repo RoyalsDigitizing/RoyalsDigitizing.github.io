@@ -8,7 +8,7 @@ export const ImageCarousel = ({ item }) => {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length); // Loop back to 0 after last image
-    }, 5000); // 1000ms = 1 second
+    }, 3000); // 1000ms = 1 second
 
     return () => clearInterval(interval); // Cleanup the interval on component unmount
   }, [images.length]);
