@@ -1,4 +1,4 @@
-import React, { } from "react";
+import React from "react";
 import { VideoPlayer } from "./VideoPlayer";
 import { motion } from "framer-motion";
 
@@ -16,12 +16,10 @@ export const PopupExample = ({ item, setItem, ProjectLinks }) => {
 
     return <div className={heightClass} />;
   };
-  const { title, des, longDes, video } =
-    item;
+  const { title, images } = item;
+
   return (
     <div>
-      {/* Full window overlay */}
-
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1, transition: { duration: 0.3 } }}
@@ -37,47 +35,40 @@ export const PopupExample = ({ item, setItem, ProjectLinks }) => {
           <div
             className="overflow-auto h-full"
             style={{
-              scrollbarWidth: "none",
-              msOverflowStyle: "none",
+              // Remove these properties to show the scrollbar
+              scrollbarWidth: "thin", // Optional: makes the scrollbar thin in modern browsers
+              msOverflowStyle: "auto",
+              //  backgroundColor: "#000000"
             }}
           >
-            <div className="flex justify-center pt-0 sm:pt-0 md:pt-4 lg:pt-6   items-center text-center">
-              <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold capitalize">
+            <div className="flex justify-center pt-0 sm:pt-0 md:pt-2 lg:pt-4 items-center text-center">
+              <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold capitalize">
                 {title}
               </h1>
             </div>
 
-            <div className="flex flex-row gap-0 justify-between">
-              <div
-                className="px-4 md:px-6"
-                style={{
-                  flex: 1,
-                }}
-              >
-                <h1 className="text-base mt-5 mb-2 md:mt-8 md:mb-4 md:text-lg lg:text-xl font-bold text-designColor">
-                  Overview
-                </h1>
-                <h2 className="text-sm md:text-base lg:text-lg mb-2">{des}</h2>
-                <h1 className="text-base mt-5 mb-2 md:mt-8 md:mb-4  md:text-lg lg:text-xl font-bold text-designColor">
-                  Description
-                </h1>
-                <h2 className="text-sm md:text-base lg:text-lg mb-2">
-                  {longDes}
-                </h2>
-                <h1 className="text-base mt-5 mb-2 md:mt-8 md:mb-4 md:text-lg lg:text-xl font-bold text-designColor">
-                  Links
-                </h1>
-                <ProjectLinks it={item} />
-                {video && (
-                  <>
-                    <h1 className="text-base mt-5 mb-2 md:mt-8 md:mb-4 md:text-lg lg:text-xl font-bold  text-designColor">
-                      Video
-                    </h1>
-                    <div style={{ height: "10px" }} />
-                    <VideoPlayer video={video} />
-                  </>
-                )}
-              </div>
+            {/* Images */}
+            <div className="flex flex-wrap gap-4 pt-2 sm:pt-4 md:pt-6 lg:pt-8 justify-center">
+              {images.map((image, index) => (
+                <div
+                  key={index}
+                  className="px-4 md:px-6 w-full sm:w-1/2 lg:w-1/3 flex justify-center"
+                  style={{
+                    maxWidth: "calc(33.33% - 1rem)", // Ensure each image takes up one-third of the container
+                  }}
+                >
+                  <img
+                    src={require(`../../assets/categories/${title}/${image}`)}
+                    alt={`Image ${index + 1}`}
+                    className="w-full h-full object-cover"
+                    style={{
+                      width: "100%",
+                      height: "100%",
+                      objectFit: "cover", // Ensures the image fills the container without gaps
+                    }}
+                  />
+                </div>
+              ))}
             </div>
           </div>
 
