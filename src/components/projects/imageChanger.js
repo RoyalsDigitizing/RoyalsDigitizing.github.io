@@ -6,11 +6,11 @@ export const ImageCarousel = ({ item }) => {
 
   // Change image every second (1000ms)
   useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length); // Loop back to 0 after last image
-    }, 3000); // 1000ms = 1 second
+    // const interval = setInterval(() => {
+    //   setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length); // Loop back to 0 after last image
+    // }, 3000); // 1000ms = 1 second
 
-    return () => clearInterval(interval); // Cleanup the interval on component unmount
+    // return () => clearInterval(interval); // Cleanup the interval on component unmount
   }, [images.length]);
 
   return (
