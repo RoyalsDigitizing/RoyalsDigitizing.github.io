@@ -60,11 +60,11 @@ export const PopupExample = ({ item, setItem, ProjectLinks }) => {
                   <img
                     src={require(`../../assets/categories/${title}/${image}`)}
                     alt={`Image ${index + 1}`}
-                    className="w-full h-full object-cover"
+                    className="w-full h-full "
                     style={{
                       width: "100%",
                       height: "100%",
-                      objectFit: "cover", // Ensures the image fills the container without gaps
+                      
                     }}
                   />
                 </div>
