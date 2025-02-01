@@ -2,6 +2,8 @@ import React from "react";
 import {
   FaFacebookF,
 
+  FaInstagram,
+
   FaWhatsapp,
 
 } from "react-icons/fa";
@@ -26,7 +28,7 @@ export const FindMe = () => {
         </a> */}
 
         <a
-          href="https://wa.me/+923131830394"
+          href="https://wa.me/+923300839027"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -50,6 +52,15 @@ export const FindMe = () => {
         >
           <span className="bannerIcon">
             <MdMail />
+          </span>
+        </a>
+        <a
+          href="https://www.instagram.com/royalsdigitizer?igsh=MXBncWgxZzNhaHdudA%3D%3D"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <span className="bannerIcon">
+            <FaInstagram />
           </span>
         </a>
       </div>
